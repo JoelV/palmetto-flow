@@ -17,6 +17,9 @@ function setText(state, data) {
 
 App.render = function render(state) {
   return h('div.container', [
+    h('div.row', [
+      h('h1', 'Hello World')
+    ]),
     h('div.row'), [
       h('div-col-md-12', [
         h('input', {
