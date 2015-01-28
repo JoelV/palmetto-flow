@@ -1,24 +1,3 @@
-# Mercury Todo App
+# Mercury Browserify Seed
 
-
-A simple todo app using mercury.
-
-### Dependencies
-- Couchdb
-- Nodejs
-
-build
-```
-npm install -g browserify
-npm install
-npm run build
-```
-
-Create a database called todos in Couchdb
-
-run
-```
-npm start
-```
-
-Goto localhost:3000
+This is a seed to build a single page web app with mercury.
